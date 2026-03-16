@@ -101,7 +101,7 @@ document.getElementById("formCommande").addEventListener("submit",function(e){
 
 e.preventDefault();
 
-const societe="BE Clean";
+const societe="Viana Cleaning";
 const chantier=escapeHTML(document.getElementById("chantier").value);
 const nom=escapeHTML(document.getElementById("nom").value);
 const autre=escapeHTML(document.getElementById("autre").value);
@@ -172,7 +172,7 @@ background:#f7fff7;
 ${chantier}
 </div>
 <div style="font-size:14px;color:#666;margin-top:4px">
-${chantiersBEClean.find(c=>c.nom===chantier)?.adresse || ""}
+${chantiersViana.find(c=>c.nom===chantier)?.adresse || ""}
 </div>
 
 </div>
