@@ -9,15 +9,17 @@ function escapeHTML(str){
   });
 }
 
-const chantiersBEClean=[
-{nom:"AKROPOLIS",adresse:"Luitberg, 25 1853 Strombeek-Bever"},
-{nom:"APOLLO 95-97",adresse:"Grotexinkellaan, 95-97 1853 Strombeek-Bever"},
-{nom:"ECTA",adresse:"Rue de Trèves, 49-51 1040 Etterbeek"},
-{nom:"EPHA",adresse:"Rue de Trèves, 49-51 1040 Etterbeek"},
-{nom:"ERS",adresse:"Rue de Trèves, 49-51 1040 Etterbeek"},
-{nom:"GROENDAL",adresse:"Sint-Annalaan, 74 1800 Vilvoorde"},
-{nom:"STONE",adresse:"Steenstraat, 59 1800 Vilvoorde"},
-{nom:"BWT",adresse:"Leuvensesteenweg, 633 1930 Zaventem"}
+const chantiersViana=[
+{nom:"CALL INTERNATIONAL",adresse:"Luitberg, 25 1853 Strombeek-Bever"},
+{nom:"FULLMARK",adresse:"Grotexinkellaan, 95-97 1853 Strombeek-Bever"},
+{nom:"GANG BELGIUM",adresse:"Rue de Trèves, 49-51 1040 Etterbeek"},
+{nom:"IMMOBILIERE DE LA GRANDE PLACE",adresse:"Rue de Trèves, 49-51 1040 Etterbeek"},
+{nom:"LIONEL DUMONT",adresse:"Rue de Trèves, 49-51 1040 Etterbeek"},
+{nom:"MARKEN",adresse:"Sint-Annalaan, 74 1800 Vilvoorde"},
+{nom:"SCALE DOGS",adresse:"Steenstraat, 59 1800 Vilvoorde"},
+{nom:"SOYER & MAMET",adresse:"Leuvensesteenweg, 633 1930 Zaventem"},
+{nom:"VANDENDIJK & PARTNERS",adresse:"Leuvensesteenweg, 633 1930 Zaventem"},
+{nom:"VORTAN - SOUVERAINE",adresse:"Leuvensesteenweg, 633 1930 Zaventem"},
 ];
 
 const produits=[
