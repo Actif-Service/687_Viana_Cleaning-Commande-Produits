@@ -10,16 +10,16 @@ function escapeHTML(str){
 }
 
 const chantiersVianaCleaning = [
-{nom:"CALL INTERNATIONAL",adresse:"Luitberg, 25 1853 Strombeek-Bever"},
-{nom:"FULLMARK",adresse:"Grotexinkellaan, 95-97 1853 Strombeek-Bever"},
-{nom:"GANG BELGIUM",adresse:"Rue de Trèves, 49-51 1040 Etterbeek"},
-{nom:"IMMOBILIERE DE LA GRANDE PLACE",adresse:"Rue de Trèves, 49-51 1040 Etterbeek"},
-{nom:"LIONEL DUMONT",adresse:"Rue de Trèves, 49-51 1040 Etterbeek"},
-{nom:"MARKEN",adresse:"Sint-Annalaan, 74 1800 Vilvoorde"},
-{nom:"SCALE DOGS",adresse:"Steenstraat, 59 1800 Vilvoorde"},
-{nom:"SOYER & MAMET",adresse:"Leuvensesteenweg, 633 1930 Zaventem"},
-{nom:"VANDENDIJK & PARTNERS",adresse:"Leuvensesteenweg, 633 1930 Zaventem"},
-{nom:"VORTAN - SOUVERAINE",adresse:"Leuvensesteenweg, 633 1930 Zaventem"},
+{nom:"CALL INTERNATIONAL",adresse:"Avenue Louise, 251 (5ème étage)  1050 Bruxelles"},
+{nom:"FULLMARK",adresse:"avenue Thomas Edison, 121  1400 Nivelles"},
+{nom:"GANG BELGIUM",adresse:"Avenue Louise, 120  1050 Bruxelles"},
+{nom:"IMMOBILIERE DE LA GRANDE PLACE",adresse:"Rue du Lombard, 39  1000 Bruxelles"},
+{nom:"LIONEL DUMONT",adresse:"Rue Middelbourg, 34  1170 Watermael-Boisfort"},
+{nom:"MARKEN",adresse:"Leuvensesteenweg, 555  1930 Zaventem"},
+{nom:"SCALE DOGS",adresse:"Clos des Ormes, 21  1970 Wezembeek-Oppem"},
+{nom:"SOYER & MAMET",adresse:"avenue de la Forestière,2  1170 Watermael-Boisfort"},
+{nom:"VANDENDIJK & PARTNERS",adresse:"Rue Edith Cavell, 66  1180 Bruxelles},
+{nom:"VORTAN - SOUVERAINE",adresse:"Rue Souveraine, 97  1050 Bruxelles"},
 ];
 
 const produits = [
