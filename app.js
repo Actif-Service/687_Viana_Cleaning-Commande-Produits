@@ -129,7 +129,7 @@ document.addEventListener("DOMContentLoaded", () => {
     btn.disabled = true;
     btn.textContent = "Envoi en cours...";
 
-    const societe = "BE Clean";
+    const societe = "Viana Cleaning";
     const chantier = escapeHTML(document.getElementById("chantier").value);
     const nom = escapeHTML(document.getElementById("nom").value);
     const autre = escapeHTML(document.getElementById("autre").value);
