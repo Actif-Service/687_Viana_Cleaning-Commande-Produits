@@ -9,7 +9,7 @@ function escapeHTML(str){
   });
 }
 
-const chantiersViana Cleaning = [
+const chantiersViana = [
 {nom:"CALL INTERNATIONAL",adresse:"Avenue Louise, 251 (5ème étage)  1050 Bruxelles"},
 {nom:"FULLMARK",adresse:"avenue Thomas Edison, 121  1400 Nivelles"},
 {nom:"GANG BELGIUM",adresse:"Avenue Louise, 120  1050 Bruxelles"},
@@ -59,7 +59,7 @@ document.addEventListener("DOMContentLoaded", () => {
   const produitsContainer = document.getElementById("produits");
 
   // Remplir les chantiers
-  chantiersViana Cleaning.forEach(c => {
+  chantiersViana.forEach(c => {
     const option = document.createElement("option");
     option.value = c.nom;
     option.textContent = c.nom;
